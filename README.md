@@ -8,6 +8,8 @@
 
 #### 一、使用方式
 
+* 进入[mavne中央仓库](https://central.sonatype.com/)
+
 * 在`pom.xml`中添加以下坐标
 
 ```xml
