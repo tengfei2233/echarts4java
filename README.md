@@ -6,7 +6,11 @@
 
 该项目可以根据Echarts图表的option配置项内容生成Echarts图表
 
-#### 一、使用方式
+#### 二、注意事项（V1.0.0）
+* 项目依赖于batik-codec:1.17，将svg转成png/jpeg
+* 在linux环境运行时，系统libc库版本必须大于等于2.35，可使用`ldd --version`查看
+
+#### 二、使用方式
 
 * 进入[mavne中央仓库](https://central.sonatype.com/)
 
