@@ -73,7 +73,7 @@ public class Echarts {
      */
     public static native byte[] render(int width, int height, String type, String option);
 
-    public static enum ImageType {
+    public enum ImageType {
         SVG("svg"),
         PNG("png"),
         JPEG("jpeg");

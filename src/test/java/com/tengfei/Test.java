@@ -1,6 +1,5 @@
 package com.tengfei;
 
-import org.apache.batik.transcoder.TranscoderException;
 import top.magicpotato.Echarts;
 import top.magicpotato.EchartsUtil;
 
@@ -19,7 +18,7 @@ import java.nio.file.Paths;
  * @Version: 1.0
  */
 public class Test {
-    public static void main(String[] args) throws IOException, TranscoderException {
+    public static void main(String[] args) throws IOException {
         InputStream is = Test.class.getResourceAsStream("/option.txt");
         StringBuilder content = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8))) {
@@ -32,7 +31,7 @@ public class Test {
         }
         System.out.println(content);
 
-        byte[] bytes = EchartsUtil.getImageByte(content.toString(), 1280, 720, Echarts.ImageType.JPEG);
-        Files.write(Paths.get("test.jpg"), bytes);
+        byte[] bytes = EchartsUtil.getImageByte(content.toString(), 1280, 720, Echarts.ImageType.PNG);
+        Files.write(Paths.get("test.png"), bytes);
     }
 }

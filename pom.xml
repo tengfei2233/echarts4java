@@ -6,7 +6,7 @@
 
     <groupId>io.github.tengfei2233</groupId>
     <artifactId>echarts4java</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <name>echarts4java</name>
     <description>java后端生成echarts</description>
     <url>https://github.com/tengfei2233/echarts4java</url>
@@ -28,7 +28,7 @@
         <url>https://github.com/tengfei2233/echarts4java/issues</url>
     </issueManagement>
 
-    <inceptionYear>2024</inceptionYear>
+    <inceptionYear>2025</inceptionYear>
 
     <licenses>
         <license>
@@ -52,11 +52,13 @@
 
 
     <dependencies>
+
         <dependency>
-            <groupId>org.apache.xmlgraphics</groupId>
-            <artifactId>batik-codec</artifactId>
-            <version>1.17</version>
+            <groupId>com.github.weisj</groupId>
+            <artifactId>jsvg</artifactId>
+            <version>1.7.0</version>
         </dependency>
+
     </dependencies>
     <build>
         <plugins>
@@ -113,7 +115,7 @@
                     <failOnError>false</failOnError>
                 </configuration>
             </plugin>
-            <plugin>
+            <plugin >
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>1.5</version>
