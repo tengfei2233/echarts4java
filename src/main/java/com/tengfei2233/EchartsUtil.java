@@ -1,4 +1,4 @@
-package top.magicpotato;
+package com.tengfei2233;
 
 import com.github.weisj.jsvg.SVGDocument;
 import com.github.weisj.jsvg.geometry.size.FloatSize;

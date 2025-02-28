@@ -1,7 +1,7 @@
 package com.tengfei;
 
-import top.magicpotato.Echarts;
-import top.magicpotato.EchartsUtil;
+import com.tengfei2233.Echarts;
+import com.tengfei2233.EchartsUtil;
 
 import java.io.BufferedReader;
 import java.io.IOException;
