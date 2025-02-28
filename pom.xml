@@ -6,7 +6,7 @@
 
     <groupId>io.github.tengfei2233</groupId>
     <artifactId>echarts4java</artifactId>
-    <version>1.1.0</version>
+    <version>2.0.0</version>
     <name>echarts4java</name>
     <description>java后端生成echarts</description>
     <url>https://github.com/tengfei2233/echarts4java</url>
